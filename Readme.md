@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [XtraReport1.cs](./CS/QueryParametersRuntime/XtraReport1.cs) (VB: [XtraReport1.vb](./VB/QueryParametersRuntime/XtraReport1.vb))
+<!-- default file list end -->
 # How to programmatically filter report data at the data source level using query parameters
 
 
