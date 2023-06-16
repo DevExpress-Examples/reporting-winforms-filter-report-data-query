@@ -1,5 +1,7 @@
-﻿Namespace QueryParametersRuntime
-    Partial Public Class XtraReport1
+Namespace QueryParametersRuntime
+
+    Partial Class XtraReport1
+
         ''' <summary>
         ''' Required designer variable.
         ''' </summary>
@@ -10,14 +12,14 @@
         ''' </summary>
         ''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-            If disposing AndAlso (components IsNot Nothing) Then
-                components.Dispose()
+            If disposing AndAlso (Me.components IsNot Nothing) Then
+                Me.components.Dispose()
             End If
+
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Designer generated code"
-
+'#Region "Designer generated code"
         ''' <summary>
         ''' Required method for Designer support - do not modify
         ''' the contents of this method with the code editor.
@@ -32,11 +34,11 @@
             Me.PageHeader = New DevExpress.XtraReports.UI.PageHeaderBand()
             Me.xrLabel3 = New DevExpress.XtraReports.UI.XRLabel()
             Me.xrLabel4 = New DevExpress.XtraReports.UI.XRLabel()
-            CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me), System.ComponentModel.ISupportInitialize).BeginInit()
             ' 
             ' Detail
             ' 
-            Me.Detail.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() { Me.xrLabel2, Me.xrLabel1})
+            Me.Detail.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.xrLabel2, Me.xrLabel1})
             Me.Detail.HeightF = 23F
             Me.Detail.Name = "Detail"
             Me.Detail.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F)
@@ -87,7 +89,7 @@
             ' 
             ' PageHeader
             ' 
-            Me.PageHeader.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() { Me.xrLabel4, Me.xrLabel3})
+            Me.PageHeader.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.xrLabel4, Me.xrLabel3})
             Me.PageHeader.HeightF = 23F
             Me.PageHeader.Name = "PageHeader"
             ' 
@@ -115,27 +117,33 @@
             ' 
             ' XtraReport1
             ' 
-            Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() { Me.Detail, Me.TopMargin, Me.BottomMargin, Me.PageHeader})
+            Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() {Me.Detail, Me.TopMargin, Me.BottomMargin, Me.PageHeader})
             Me.Margins = New System.Drawing.Printing.Margins(50, 50, 50, 50)
             Me.PageHeight = 827
             Me.PageWidth = 583
             Me.PaperKind = System.Drawing.Printing.PaperKind.A5
-            Me.Parameters.AddRange(New DevExpress.XtraReports.Parameters.Parameter() { Me.catID})
+            Me.Parameters.AddRange(New DevExpress.XtraReports.Parameters.Parameter() {Me.catID})
             Me.Version = "14.2"
-            CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
-
+            CType((Me), System.ComponentModel.ISupportInitialize).EndInit()
         End Sub
 
-        #End Region
-
+'#End Region
         Private Detail As DevExpress.XtraReports.UI.DetailBand
+
         Private TopMargin As DevExpress.XtraReports.UI.TopMarginBand
+
         Private BottomMargin As DevExpress.XtraReports.UI.BottomMarginBand
+
         Private xrLabel1 As DevExpress.XtraReports.UI.XRLabel
+
         Private xrLabel2 As DevExpress.XtraReports.UI.XRLabel
+
         Private catID As DevExpress.XtraReports.Parameters.Parameter
+
         Private PageHeader As DevExpress.XtraReports.UI.PageHeaderBand
+
         Private xrLabel4 As DevExpress.XtraReports.UI.XRLabel
+
         Private xrLabel3 As DevExpress.XtraReports.UI.XRLabel
     End Class
 End Namespace
