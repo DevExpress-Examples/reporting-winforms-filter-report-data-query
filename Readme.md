@@ -1,19 +1,24 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128602666/17.2.3%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T203059)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
-
-* [Program.cs](./CS/QueryParametersRuntime/Program.cs) (VB: [Program.vb](./VB/QueryParametersRuntime/Program.vb))
-* **[XtraReport1.cs](./CS/QueryParametersRuntime/XtraReport1.cs) (VB: [XtraReport1.vb](./VB/QueryParametersRuntime/XtraReport1.vb))**
-<!-- default file list end -->
-# How to programmatically filter report data at the data source level using query parameters
+# Reporting for WinForms - Use Query Parameter to Filter Report Data at the Data Source Level
 
 
-This example illustrates how to programmatically filter report data at the data source level using a <a href="https://documentation.devexpress.com/#XtraReports/CustomDocument17387">query parameter</a> as a filtering criterion. In this example, the query parameter has the <strong>Expression</strong> type, which allows for the use of an expression to dynamically calculate the parameter's value (e.g., to map the query parameter to the value of a report parameter).
+This example shows how to use [query parameter](https://docs.devexpress.com/XtraReports/17387/detailed-guide-to-devexpress-reporting/bind-reports-to-data/sql-database/specify-query-parameters) to filter report data at the data source level. 
 
-<br/>
+![Use Query Parameter to Filter Data](Images/screenshot.png)
+## Files to Review
+
+* [Program.cs](CS/QueryParametersRuntime/Program.cs) (VB: [Program.vb](VB/QueryParametersRuntime/Program.vb))
+* [XtraReport1.cs](CS/QueryParametersRuntime/XtraReport1.cs) (VB: [XtraReport1.vb](VB/QueryParametersRuntime/XtraReport1.vb))
+
+## Documentation
+
+- [Use Report Parameter to Filter Report Data at the Data Source Level](https://docs.devexpress.com/XtraReports/17387/detailed-guide-to-devexpress-reporting/bind-reports-to-data/sql-database/specify-query-parameters#use-report-parameter-to-filter-report-data-at-the-data-source-level)
+- [Filter Data](https://docs.devexpress.com/XtraReports/119450/detailed-guide-to-devexpress-reporting/shape-report-data/filter-data)
+- [Use Expressions](https://docs.devexpress.com/XtraReports/120091/detailed-guide-to-devexpress-reporting/use-expressions)
+- [Use Report Parameters](https://docs.devexpress.com/XtraReports/4812/detailed-guide-to-devexpress-reporting/use-report-parameters)
+## More Examples
+
+- [Reporting for ASP NET.Core - Implement Row-Level Security](https://github.com/DevExpress-Examples/asp-net-core-reporting-row-level-security)
+- [Row-Level Filtering in ASP.NET Core Reporting Application with SqlDataSource (Multi-Tenancy Support)](https://github.com/DevExpress-Examples/Reporting-Multi-Tenancy-Security-Filter)
+- [SqlDataSource - How to use ExpressionEvaluator to programmatically filter report data](https://github.com/DevExpress-Examples/Reporting_sqldatasource-how-to-use-expressionevaluator-to-programmatically-filter-report-t328522)
 
 

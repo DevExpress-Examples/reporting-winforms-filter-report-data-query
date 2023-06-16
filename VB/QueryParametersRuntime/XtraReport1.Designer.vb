@@ -58,7 +58,7 @@
             ' 
             ' xrLabel1
             ' 
-            Me.xrLabel1.Font = New System.Drawing.Font("Segoe UI", 9.75F)
+            Me.xrLabel1.Font = New DevExpress.Drawing.DXFont("Segoe UI", 9.75F)
             Me.xrLabel1.LocationFloat = New DevExpress.Utils.PointFloat(0F, 0F)
             Me.xrLabel1.Name = "xrLabel1"
             Me.xrLabel1.Padding = New DevExpress.XtraPrinting.PaddingInfo(4, 4, 0, 0, 100F)
@@ -69,7 +69,7 @@
             ' 
             ' xrLabel2
             ' 
-            Me.xrLabel2.Font = New System.Drawing.Font("Segoe UI", 9.75F)
+            Me.xrLabel2.Font = New DevExpress.Drawing.DXFont("Segoe UI", 9.75F)
             Me.xrLabel2.LocationFloat = New DevExpress.Utils.PointFloat(112.5F, 0F)
             Me.xrLabel2.Name = "xrLabel2"
             Me.xrLabel2.Padding = New DevExpress.XtraPrinting.PaddingInfo(4, 4, 0, 0, 100F)
@@ -93,7 +93,7 @@
             ' 
             ' xrLabel3
             ' 
-            Me.xrLabel3.Font = New System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold)
+            Me.xrLabel3.Font = New DevExpress.Drawing.DXFont("Segoe UI", 9.75F, DevExpress.Drawing.DXFontStyle.Bold)
             Me.xrLabel3.LocationFloat = New DevExpress.Utils.PointFloat(0F, 0F)
             Me.xrLabel3.Name = "xrLabel3"
             Me.xrLabel3.Padding = New DevExpress.XtraPrinting.PaddingInfo(4, 4, 0, 0, 100F)
@@ -104,7 +104,7 @@
             ' 
             ' xrLabel4
             ' 
-            Me.xrLabel4.Font = New System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold)
+            Me.xrLabel4.Font = New DevExpress.Drawing.DXFont("Segoe UI", 9.75F, DevExpress.Drawing.DXFontStyle.Bold)
             Me.xrLabel4.LocationFloat = New DevExpress.Utils.PointFloat(112.5F, 0F)
             Me.xrLabel4.Name = "xrLabel4"
             Me.xrLabel4.Padding = New DevExpress.XtraPrinting.PaddingInfo(4, 4, 0, 0, 100F)
@@ -116,7 +116,7 @@
             ' XtraReport1
             ' 
             Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() { Me.Detail, Me.TopMargin, Me.BottomMargin, Me.PageHeader})
-            Me.Margins = New System.Drawing.Printing.Margins(50, 50, 50, 50)
+            Me.Margins = New DevExpress.Drawing.DXMargins(50, 50, 50, 50)
             Me.PageHeight = 827
             Me.PageWidth = 583
             Me.PaperKind = System.Drawing.Printing.PaperKind.A5
