@@ -119,7 +119,7 @@
             Me.Margins = New DevExpress.Drawing.DXMargins(50, 50, 50, 50)
             Me.PageHeight = 827
             Me.PageWidth = 583
-            Me.PaperKind = System.Drawing.Printing.PaperKind.A5
+            Me.PaperKind = DevExpress.Drawing.Printing.DXPaperKind.A5
             Me.Parameters.AddRange(New DevExpress.XtraReports.Parameters.Parameter() { Me.catID})
             Me.Version = "14.2"
             CType(Me, System.ComponentModel.ISupportInitialize).EndInit()

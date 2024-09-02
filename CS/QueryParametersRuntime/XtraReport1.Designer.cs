@@ -127,7 +127,7 @@
             this.Margins = new DevExpress.Drawing.DXMargins(50, 50, 50, 50);
             this.PageHeight = 827;
             this.PageWidth = 583;
-            this.PaperKind = System.Drawing.Printing.PaperKind.A5;
+            this.PaperKind = DevExpress.Drawing.Printing.DXPaperKind.A5;
             this.Parameters.AddRange(new DevExpress.XtraReports.Parameters.Parameter[] {
             this.catID});
             this.Version = "14.2";
